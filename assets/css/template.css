@@ -621,7 +621,7 @@ section.why-us {
 /* Coming Soon */
 
 section.coming-soon {
-    background-image: url(https://ik.imagekit.io/maarifdh/aset-gambar/visi-misi-bg.jpg);
+    background-image: url(assets/images/visi-misi-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #1B3B1A;
@@ -885,7 +885,7 @@ section.courses .owl-carousel button.active {
 /* Video */
 
 section.video {
-    background-image: url(https://ik.imagekit.io/maarifdh/aset-gambar/video-bg.jpg?updatedAt=1753532023012);
+    background-image: url(assets/images/video-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #1B3B1A;
