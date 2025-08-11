@@ -12,21 +12,22 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>MTs Ma'arif DH Polokarto</title>
     
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/gh/masveil/webmtsutama@main/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap -->
+<link rel="preload" as="style" href="https://masveil.github.io/webmtsutama/vendor/bootstrap/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://masveil.github.io/webmtsutama/vendor/bootstrap/css/bootstrap.min.css"></noscript>
 
-    <!-- Additional CSS Files -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/masveil/webmtsutama@main/assets/css/fontawesome.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/masveil/webmtsutama@main/assets/css/template.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/masveil/webmtsutama@main/assets/css/owl.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/masveil/webmtsutama@main/assets/css/lightbox.css">
-<!--
-    
-TemplateMo 557 Grad School
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://masveil.github.io/webmtsutama/assets/css/fontawesome.css">
 
-https://templatemo.com/tm-557-grad-school
+<!-- Template utama -->
+<link rel="preload" as="style" href="https://masveil.github.io/webmtsutama/assets/css/template.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://masveil.github.io/webmtsutama/assets/css/template.css"></noscript>
 
--->
+<!-- Owl & Lightbox -->
+<link rel="stylesheet" href="https://masveil.github.io/webmtsutama/assets/css/owl.css">
+<link rel="stylesheet" href="https://masveil.github.io/webmtsutama/assets/css/lightbox.css">
+
+
   </head>
 
 <body>
@@ -138,7 +139,7 @@ https://templatemo.com/tm-557-grad-school
           <ul>
             <li><a href='#tabs-1'>Islami</a></li>
             <li><a href='#tabs-2'>Modern</a></li>
-            <li><a href='#tabs-3'>Asri</a></li>
+            <li><a href='#tabs-3'>Juara</a></li>
           </ul>
           <section class='tabs-content'>
 
@@ -175,8 +176,8 @@ https://templatemo.com/tm-557-grad-school
                   <img src="assets/images/choose-us-image-03.png" alt="">
                 </div>
                 <div class="col-md-6">
-                  <h4>Lingkungan Sejuk & Nyaman</h4>
-                  <p>MTs Ma’arif DH tumbuh menjadi madrasah Adiwiyata yang hijau, bersih, dan ramah lingkungan. Anak-anak tidak hanya diajarkan mencintai ilmu, tapi juga cinta pada bumi. Lewat kegiatan tanam pohon, daur ulang, dan budaya hidup bersih, kami tanamkan karakter peduli lingkungan sejak dini. Karena tempat belajar yang nyaman membentuk anak yang bahagia.</p>
+                  <h4>Terakreditasi Unggul, Prestasi Gemilang</h4>
+                  <p>MTs Ma’arif DH telah terakreditasi A oleh BAN-SM dan menjadi madrasah Adiwiyata yang peduli lingkungan. Lebih dari itu, siswa-siswi kami rutin menorehkan prestasi di berbagai ajang lomba akademik maupun non-akademik — dari tingkat kecamatan hingga nasional. Ini adalah bukti nyata komitmen kami dalam mencetak generasi berakhlak, cerdas, dan membanggakan.</p>
                 </div>
               </div>
             </article>
@@ -448,7 +449,7 @@ ini gip :
           $('.section').each(function () {
             var
             $this = $(this),
-            topEdge = $this.offset().top - 100,
+            topEdge = $this.offset().top - 150,
             bottomEdge = topEdge + $this.height(),
             wScroll = $(window).scrollTop();
             if (topEdge < wScroll && bottomEdge > wScroll) {
