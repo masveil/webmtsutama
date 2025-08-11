@@ -25,6 +25,18 @@
 <link rel="stylesheet" href="assets/css/owl.css">
 <link rel="stylesheet" href="assets/css/lightbox.css">
 
+	    <!-- CSS Anti FOUC -->
+  <style>
+    /* Awal: background hitam + teks putih + invisible */
+    body {
+      background: #000;
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.4s ease-in;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 
   </head>
 
@@ -414,6 +426,11 @@ ini gip :
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
+	  <script>
+    window.addEventListener("load", () => {
+      document.body.style.opacity = "1";
+    });
+  </script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/isotope.min.js"></script>
@@ -475,5 +492,6 @@ ini gip :
     </script>
 </body>
 </html>
+
 
 
